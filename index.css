@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html,
 body,
 div,
@@ -196,10 +191,6 @@ body {
     outline: none;
 }
 
-/* textarea:focus {
-    border: none;
-} */
-
 .recommendation {
     display: flex;
     margin-bottom: 16px;
@@ -271,60 +262,6 @@ body {
     color: #495057;
     text-align: Center;
 }
-
-/* .center{
-    margin: 0 auto;
-} */
-
-
-/* @media (min-width: 601px) and (max-width: 1024px) { 
-
-    .app-container {
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .logo {
-        width: 100%;
-        height: 48px;
-        display: flex;
-        justify-content: start;
-    }
-
-
-    .type-zone>textarea {
-        height: auto;
-        width: auto;
-        border: none;
-        font-weight: 400;
-        font-size: 25px;
-        color: #0A3871;
-    }
-
-    .type-zone>textarea::placeholder {
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 30px;
-        color: #0A3871;
-    }
-
-    .type-zone-bottom {
-        width: auto;
-    }
-
-    .type-zone-buttons {
-        width: auto;
-    }
-
-    .results-zone {
-        width: auto;
-        height: auto;
-    }
-} */
-
 
 .results-zone-answer {
     flex-direction: column;
